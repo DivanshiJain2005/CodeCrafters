@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Save Text As File JavaScript</title>
+    <link rel="stylesheet" href="/textToPdf.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/textToPdf.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+          <form action="/textToPdf" method="post">
+            <textarea spellcheck="false" name="text" required>Enter something to save
+            </textarea>
+            <div class="file-options">
+              <div class="option save-as">
+                
+                <label for="opt" style="margin-top:10px">Select language</label>
+                <select name="opt" id="opt" class="opt">
+                    <option value="en" selected>English</option>
+                  </select>
+              </div>
+            </div>
+            <button class="save-btn" type="submit">
+              Translate  
+              </button>
+          </form>
+    </div>
+  </body>
+</html>

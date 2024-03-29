@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website Homepage HTML and CSS</title>
+    <link rel="stylesheet" href="/home.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">Bhashini</a></h2>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="http://localhost:8080/services">Services</a></li>
+          <li><a href="http://localhost:8080/references">References</a></li>
+          <li><a href="http://localhost:8080/contactUs">Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="#" class="signin">Sign In</a>
+          <a href="#" class="signup">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="hero">
+        <h2>Language Interface 4 India</h2>
+        <p>
+            A language translator tool tailored for government
+            organizations, providing the capability to translate English content into a
+            specific language. This tool is designed to enhance accessibility and
+            usability for a wider audience. The key focus is on creating a language
+            translator for official government websites, eliminating language
+            barriers and ensuring effective communication.
+        </p>
+        <div class="buttons">
+          <a href="/pdfUpload" class="join">Try uploading a PDF</a>
+          <a href="/translate" class="learn">Try text convertor</a>
+          <a href="/textToPdf" class="learn">Text to pdf</a>
+        </div>
+      </div>
+      <div class="img">
+        <img src="/lang.jpg" alt="hero image" />
+      </div>
+    </section>
+  </body>
+</html>
